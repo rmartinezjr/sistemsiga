@@ -1,0 +1,380 @@
+@media screen {
+    div.onlyprint{
+        display: none;
+    }
+}
+
+@media print{
+    .do-not-print{
+        display: none;
+    }
+    table tr th{
+        background-color: #444444 !important;
+        color: #fff !important;
+    }
+    table thead tr th{
+        font-size: 1.25em;
+        height: 25px;
+        text-align: center;
+        -webkit-print-color-adjust: exact;
+    }
+    table tr td{
+        font-size: 1.18em;
+        height: 25px;
+    }
+
+    table#etapas thead tr th{
+        background-color: #444444 !important;
+        color: #fff !important;
+    }
+    table#etapas thead tr th{
+        font-size: 1.25em;
+        height: 25px;
+        -webkit-print-color-adjust: exact;
+    }
+    table#etapas thead tr td{
+        font-size: 1.25em;
+        height: 25px;
+    }
+    table.interlineado>tbody>tr:nth-child(odd)>td{
+        -webkit-print-color-adjust: exact;
+        background-color: #ECECEC !important;
+    }
+    .org{
+        font-size: 7px;
+    }
+    label.encabezado{
+        font-size: 1.1em;
+        color: #444444 !important;
+    }
+    .linea{
+        height: 2px !important;
+        background: #000 !important;
+        -webkit-print-color-adjust: exact;
+        width: 100% !important;
+    }
+    label.tittle{
+        font-size: 1.3em;
+    }
+    .enc, .enc2{
+        font-size: 7px;
+    }
+    div.onlyprint {
+        position: fixed;
+        bottom: 0px;
+        font-size: 0.56em;
+
+    }
+
+    table#etapas thead tr.espacio td {
+        height: 3px;
+    }
+    table#etapas thead tr.espacio2 td {
+        height: 15px;
+    }
+
+    table.impresion thead tr.espacio td {
+        height: 3px;
+    }
+    table.impresion thead tr.espacio2 td {
+        height: 15px;
+    }
+    table#bitacora tbody tr.altrow{
+        background-color: #ECECEC;
+        -webkit-print-color-adjust: exact;
+    }
+    table#table-index tbody tr td.centro{
+        color: #444444 !important;
+        -webkit-print-color-adjust: exact;
+    }
+    span.badge{
+        background-color: black !important;
+        color: #ffffff !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    thead { page-break-inside: avoid }
+    tbody { page-break-inside: avoid }
+
+    span.th-etapa{
+        font-size: 1.25em;
+        font-weight: bold;
+        color: #fff !important;
+        -webkit-print-color-adjust: exact;
+    }
+    small.th-fecha{
+        font-size: 0.95em;
+        color: #fff !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    table.impresion tbody tr.totales td {
+        font-weight: bold !important;
+    }
+
+    .tab-encabezado {
+        font-weight: bold;
+        font-size: 1.05em;
+        color: #444444 !important;
+        margin-bottom: 5px !important;
+    }
+
+    .col-print-1 {width:8%;  float:left;}
+    .col-print-2 {width:16%; float:left;}
+    .col-print-3 {width:25%; float:left;}
+    .col-print-4 {width:33%; float:left;}
+    .col-print-5 {width:42%; float:left;}
+    .col-print-6 {width:50%; float:left;}
+    .col-print-7 {width:58%; float:left;}
+    .col-print-8 {width:66%; float:left;}
+    .col-print-9 {width:75%; float:left;}
+    .col-print-10{width:83%; float:left;}
+    .col-print-11{width:92%; float:left;}
+    .col-print-12{width:100%; float:left;}
+}
+.panel {
+    padding-bottom: 5px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.tab-encabezado {
+    font-weight: bold;
+    font-size: 1.05em;
+    color: #444444;
+    margin-bottom: 5px;
+}
+table.impresion tr th{
+    text-align: left;
+    padding-left: 10px;
+    background-color: #444444;
+    color: #ffffff;
+    height: 25px;
+    text-align: center;
+}
+table.impresion thead tr th {
+    font-size: 0.80em;
+    padding: 2px;
+}
+
+table.impresion tbody tr td {
+    font-size: 0.85em;
+}
+
+table.interlineado>tbody>tr:nth-child(odd)>td,
+table.interlineado>tbody>tr:nth-child(odd)>th {
+    background-color: #ECECEC;
+}
+td.centro{
+    color: #444444 !important;
+}
+table.impresion > thead > tr > th:first-child {
+    border-top-left-radius: 5px;
+}
+table.impresion > thead > tr > th:last-child {
+    border-top-right-radius: 5px;
+}
+.border1 {
+    border-right: solid 1px;
+    border-color: #444444;
+}
+.border2{
+    border-bottom: solid 1px;
+    border-top: solid 1px;
+    border-color: #444444;
+}
+.border3{
+    border-left: solid 1px;
+    border-right: solid 1px;
+    border-color: #444444;
+}
+.border4{
+    border-left: solid 1px;
+    border-color: #444444;
+}
+
+.tittle{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.org{
+    font-weight: bold;
+    font-size: 16px;
+    color: #232323;
+}
+.encabezado{
+    font-weight: bold;
+    font-size: 18px;
+    color: #444444;
+}
+.imglogo{
+    width: 170px;
+    height: 50px;
+}
+.linea{
+    height: 2px;
+    background: #000;
+    -webkit-print-color-adjust: exact;
+    width: 100%;
+}
+.den-pais{
+    margin: 0;
+    font-size: 0.75em;
+    font-weight: bold;
+}
+.den-lcodigo{
+    margin: 0;
+    font-size: 0.75em;
+    font-weight: bold;
+    color: #444444;
+}
+.den-codigo{
+    margin: 0;
+    font-size: 1.1em;
+    color: #000000;
+}
+.den-ltipo{
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #444444;
+}
+.den-tipo{
+    margin: 0;
+    font-size: 0.85em;
+    color: #444444;
+}
+.den-lorg{
+    margin: 0;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #444444;
+}
+.den-org{
+    margin: 0;
+    font-size: 0.85em;
+    color: #444444;
+}
+.subtitulo{
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.th-etapa{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.th-fecha{
+    font-size: 0.85em;
+}
+
+.vacio{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: left;
+}
+tr.detalle th {
+    text-align: left;
+}
+th.data-detalle{
+    text-align: left;
+}
+.altrow{
+    background-color: #ECECEC;
+}
+.espacio{
+    height: 3px;
+}
+.espacio2{
+    height: 15px;
+}
+.label-busq{
+    font-weight: bold;
+    font-size: 12px;
+}
+.txt-busq{
+    font-size: 11px;
+}
+span.badge{
+    background-color: black !important;
+    color: #ffffff !important;
+}
+
+div#search-box {
+    margin-top: 10px;
+}
+
+div.info-proyecto {
+    margin-top: 10px;
+}
+
+.lbl-info-proyecto {
+    font-weight: bold;
+    font-size: 0.90em;
+    padding-bottom: 5px;
+}
+
+.val-info-proyecto {
+    font-size: 0.90em;
+    padding-bottom: 5px;
+}
+
+.encabezado-busqueda {
+    font-size: 1.05em;
+    font-weight: bold;
+    color: #666666;
+    padding-bottom: 5px;
+}
+
+.resultado-busqueda {
+    font-weight: bold;
+    font-size: 0.90em;
+}
+
+.resultado {
+    font-size: 0.90em;
+}
+
+tr.totales td {
+    font-weight: bold;
+}
+
+.col-print-1 {width:8%;  float:left; padding: 0 5px;}
+.col-print-2 {width:16%; float:left; padding: 0 5px;}
+.col-print-3 {width:25%; float:left; padding: 0 5px;}
+.col-print-4 {width:33%; float:left; padding: 0 5px;}
+.col-print-5 {width:42%; float:left; padding: 0 5px;}
+.col-print-6 {width:50%; float:left; padding: 0 5px;}
+.col-print-7 {width:58%; float:left; padding: 0 5px;}
+.col-print-8 {width:66%; float:left; padding: 0 5px;}
+.col-print-9 {width:75%; float:left; padding: 0 5px;}
+.col-print-10{width:83%; float:left; padding: 0 5px;}
+.col-print-11{width:92%; float:left; padding: 0 5px;}
+.col-print-12{width:100%; float:left; padding: 0 5px;}
+
+.imprimir{
+    background-color: #4160a3 !important;
+    color: #FFFFff !important;
+    padding: 0 3px !important;
+    height: 21px !important;
+    border-radius: 3px !important;
+}
+a.imprimir:hover{
+    background-color: #4160a3 !important;
+    color: #FFFFff !important;
+}
+.icono-tringle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 6px 0 6px;
+    border-color: #ffffff transparent transparent transparent;
+    margin-left: 7px;
+    margin-top: 2px;
+}

@@ -1,0 +1,188 @@
+@font-face
+  font-family: 'icomoon'
+  src: url('fonts/icomoon.eot')
+  src: url('fonts/icomoon.eot') format('embedded-opentype'), url('fonts/icomoon.woff') format('woff'), url('fonts/icomoon.ttf') format('truetype'), url('fonts/icomoon.svg') format('svg')
+  font-weight: normal
+  font-style: normal
+.seccion-priv, .seccion-datos
+  padding-left: 0 !important
+  width: 98%
+  margin-bottom: 12px
+  background-color: #f7f6f6
+.head-perfiles
+  font-size: 14px
+  font-weight: bold
+  color: #ffffff
+  background: $colorSubMenu
+  border-radius: 6px 6px 0 0
+  font-family: $font-family
+  padding: 5px 9px 5px 18px
+  margin-left: 0
+
+.list-perfils
+  padding: 0
+  li
+    padding: 3px 5px 2px 5px
+    list-style: none
+    border: solid 1px $color-pag
+    width: 100%
+    cursor: pointer
+    &:hover
+      background: #C6E385
+    a
+      font-family: $font-family
+      color: #000000
+      font-size: 12px
+      text-decoration: none
+
+.table-privilegios
+  thead
+    tr
+      th
+        color: #ffffff
+        font-weight: bold
+        font-size: 12px
+        background: #4881BD
+        padding: 6px
+        border-right: solid 1px #ffffff
+      .col-recurso
+        text-align: left
+        padding-left: 10px
+        border-right: solid 1px #ffffff
+      td
+        color: #000000
+  tbody
+    tr
+      cursor: pointer
+      &:hover
+        background-color: #C6E385
+        .edit-privileges, .view-privileges
+          i
+            color: #2a3163
+      td
+        border-right: solid 1px #ACB0A2
+
+.fila-menu
+  color: #ffffff!important
+  background: $colorSubMenu
+  text-align: left
+  padding: 3px 3px 5px 18px!important
+  font-weight: bold
+  font-size: 13px
+  border-bottom: none !important
+  border-top: none !important
+.fila-submenu
+  background: #929292 !important
+  color: #ffffff !important
+  font-size: 13px
+  font-weight: bold
+  text-align: left
+  padding: 5px 5px 6px 18px !important
+  border-bottom: none !important
+  border-top: none !important
+.pActive
+  background: #C6E385
+
+.checkbox
+  &:checked
+    &:disabled
+      color: $accent-green + 100
+      + label::before
+        color: $accent-green + 50
+    + label::before
+      content: '\ea10'
+      font-family: "icomoon"
+      color: $accent-green
+
+.padding-edit-check
+  padding-left: 14px !important
+  padding-top: 6px !important
+  padding-right: 13px !important
+
+.overflow-privmodelos
+  max-height: 750px
+  overflow: auto
+
+.pointer
+  cursor: pointer
+
+.tr-active
+  background-color: #C6E385 !important
+
+.not-allowed
+  cursor: not-allowed
+  color: #929292 !important
+
+.check-red
+  color: red !important
+
+.display-table-cell
+  display: table-cell
+
+.p-l-5
+  padding-left: 5px
+
+.display-none
+  display: none
+
+.seccion-datos
+  border-radius: 0 6px 6px 6px
+  border: solid 1px #2a3163
+  position: relative
+  margin-left: 20px
+  label
+    font-weight: normal
+  input
+    margin-right: 10px
+
+.color-title-privdatos
+  background: #2a3163
+  color: #FFFFFF
+
+.color-title-privdatos-green
+  background-color: #a2c54c
+  color: #FFFFFF
+
+.border-radius-start-priv
+  border-radius: 6px 6px 0 0
+
+.border-radius-end-priv
+  border-radius: 0 0 6px 6px
+
+.color-col-label-impar
+  background-color: #e6edd4
+  font-weight: normal
+
+.border-detalle-personalizacion
+  border: 1px solid #a2c54c
+
+.line-height-1-9
+  line-height: 1.9
+
+.padding-top-15-priv
+  padding-top: 15px
+
+.padding-bottom-15-priv
+  padding-bottom: 15px
+
+.bloque-opciones-detalle-per
+  height: 150px
+  overflow-y: auto
+  background-color: #FFFFFF
+
+.div-detalle-personalizado
+  position: absolute
+  right: 0
+
+.p-l-16
+  padding-left: 16px
+
+.text-center
+  text-align: center
+
+.fa-close-priv
+  position: absolute
+  right: 10px
+  font-size: 16px
+  cursor: pointer
+  color: #2a3163

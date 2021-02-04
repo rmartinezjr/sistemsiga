@@ -1,0 +1,212 @@
+.btn-exit
+  background: red !important
+  color: #ffffff !important
+
+.btn-saveandexit
+  background: green
+  color: #ffffff
+
+.toolsoption
+  border: 1px solid #dbdbdb
+  margin-bottom: 10px
+  border-radius: 5px
+  box-shadow: 2px 2px #bebebe
+  cursor: pointer
+  background-color: white
+  padding: 0
+  word-break: break-all
+  p
+    color: #d98738
+    text-align: center
+    margin-top: 10px
+
+.lienzore
+  background-color: #f7f6f6
+  height: 530px
+  border-radius: 5px
+  padding-top: 20px
+  border: 1px solid #dbdbdb
+  overflow: auto
+
+.margin-struct
+  padding-bottom: 25px
+
+.toolscontent
+  font-size: 12px
+  margin-top: 15px
+
+.primary
+  color: #4c4c4c
+
+.divimage
+  background-image: url(../img/union.jpg)
+  background-repeat: no-repeat
+  background-position: 50% 50%
+  height: 35px
+  background-size: cover
+  width: 35px
+
+.toolsoptionlienzo
+  margin-bottom: 2px
+  margin-top: 12px
+  p
+    margin: 0
+
+.lienzoinitial
+  height: 500px
+  overflow-y: auto
+
+.version
+  color: #4c4c4c
+  font-size: 12px
+  font-style: italic
+  text-align: left
+  font-family: "Montserrat"
+  margin-top: 4px
+.state
+  color: white
+  border-radius: 3px
+  padding: 2px 10px
+  width: 95px
+  margin: auto
+
+.activo
+  background-color: #15943d
+
+.archivo
+  background-color: #f0ad4e
+
+.borrador
+  background-color: #929292
+
+.txt-date
+  z-index: 0 !important
+
+.vindex
+  color: #aa641d
+
+.state-struct
+  margin-top: 20px
+  margin-bottom: 10px
+  color: white
+  border-radius: 3px
+  font-weight: 700
+  padding: 0
+
+.p-l-0
+  padding-left: 0
+
+.p-0
+  padding: 0
+
+.m-b-30
+  margin-bottom: 30px
+
+.m-b-10
+  margin-bottom: 10px
+
+.info-log-2 .lbl
+  text-align: left
+  font-family: "Montserrat"
+  font-size: 14px
+  font-weight: bold
+  color: #2a3163
+
+.info-log-2 .lbl-data
+  font-family: "Montserrat"
+  font-size: 13px
+  font-weight: normal
+  text-align: left
+
+.info-log-2 span
+  font-family: "Montserrat"
+  font-size: 13px
+  font-weight: 700
+  text-align: left
+  margin-left: 10px
+  color: #444444
+  font-style: italic
+
+.color-struct-title
+  background-color: #2a3163 !important
+  color: white !important
+  font-weight: normal !important
+  border: solid 1px #2a3163 !important
+
+.struct-border-start
+  border-radius: 6px 6px 0 0
+
+.struct-border-end
+  border-radius: 0 0 6px 6px
+
+.color-struct-contet
+  background-color: white !important
+
+.control-tool
+  float: right !important
+
+.label-recurso-estructuta
+  padding: 10px 10px 2px 10px
+  font-size: 16px
+
+.acciones-tabla
+  width: 120px
+  @media (max-width: 520px)
+    width: 95px
+  .lista-acciones
+    color: #ffffff
+    padding-bottom: 0
+    .div-acciones
+      margin: auto
+      height: 18px
+      width: 90px
+      background: url("../img/admin_peque.png") no-repeat left, url("../img/blanco-flecha.png") no-repeat right $green-global
+      background-color: $green-global
+      border-radius: 3px
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      &:active
+        background: url("../img/admin_peque.png") no-repeat left, url("../img/blanco-flecha.png") no-repeat right $green-global
+      &:hover
+        border-top-left-radius: 3px
+        border-top-right-radius: 3px
+        width: 90px
+        .lista-herramientas
+          padding-left: 0
+          margin-left: 0
+          margin-bottom: 0
+          background: #ffffff
+          text-align: left
+          display: block
+          position: absolute
+          width: 92px
+          list-style: none
+          .accionPA
+            cursor: pointer
+            color: #000000
+            height: 20px
+            padding: 2px 5px
+            font-size: 10px
+            border-bottom: 0.8px solid $bor-list-actions
+            border-left: 0.8px solid $bor-list-actions
+            border-right: 0.8px solid $bor-list-actions
+            a
+              display: block
+              width: 100%
+              color: #000000
+            &:first-child
+              border-top: solid 1px $bor-list-actions
+              border-top-right-radius: 3px
+              border-top-left-radius: 3px
+            &:last-child
+              border-bottom-left-radius: 3px
+              border-bottom-right-radius: 3px
+            &:hover
+              background: $green-global
+              > a
+                color: #ffffff
+                text-decoration: none
+                display: block
+                width: 100%
+      .lista-herramientas
+        display: none

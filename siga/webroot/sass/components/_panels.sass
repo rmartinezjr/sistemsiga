@@ -1,0 +1,176 @@
+.nav-pills
+  li
+    margin-left: 0 !important
+#recursos
+  border-radius: 6px 0 0 0
+#datos
+  border-radius: 0 6px 0 0
+.panel-priv
+  margin-left: -20px
+  li
+    background: $colorSubMenu
+    width: 147px
+    height: 36px
+    list-style: none
+    padding-top: 5px
+    text-align: center
+    cursor: pointer
+    a
+      text-decoration: none
+      color: #ffffff
+      font-family: $font-family
+      font-size: 18px
+      &:hover
+        margin-top: 0
+  li.activo
+    list-style: none
+    width: 147px
+    height: 36px
+    background: #ffffff
+    border: solid 1px $colorSubMenu
+    a
+      text-decoration: none
+      padding-top: 5px
+
+      color: $colorSubMenu
+      font-size: 18px
+      font-family: $font-family
+      &:hover
+        margin-top: 0
+.seccion-priv
+  border-radius: 0 6px 6px 6px
+  border: solid 1px $colorSubMenu
+  position: relative
+  display: block
+  margin-left: 20px
+
+/***CODIGO PARA PANEL DE INDICADORES***/
+.panel
+  .panel-heading
+    .panel-title
+      padding: 0
+      a
+        display: block
+        font-size: 1em
+        text-decoration: none
+
+  .panel-body
+    padding: 0
+    .container-fluid
+      padding: 20px
+    .file
+      a
+        padding: 20px
+
+.panel-primary
+  .panel-heading
+    background-color: $accent-bright-blue
+
+
+.panel-default
+  .panel-heading
+    background-color: $gray-color
+
+.panel-borderless
+  border: none
+  box-shadow: none
+.panel-group
+  margin-bottom: 0
+  .panel
+    box-shadow: none
+    border: none
+    .panel-heading
+      padding: 0
+      background-color: $accent-light-blue
+      border-bottom: solid 1px $accent-bright-blue
+      .panel-title
+        a
+          position: relative
+          padding: 20px 10px
+          &:not(.no-caret)::after
+            content: '\f107'
+            position: absolute
+            right: 30px
+            font-family: "FontAwesome"
+            font-size: 20px
+            color: $accent-bright-blue
+
+          .stage-title
+            width: 100px
+            display: inline-block
+
+          .stage-date
+            color: $accent-bright-blue
+            font-size: 1em
+            margin-left: 20px
+
+          .comment-date
+            display: inline-block
+            margin: 0 20px
+            color: #757678
+
+          .comment-title
+            color: #444444
+
+    .panel-heading-small
+      .panel-title
+        a
+          padding: 5px 10px
+
+
+
+    .panel-collapse
+      .panel-body
+        width: 98%
+        margin-left: 1%
+        border: none
+        border-left: solid 1px $accent-bright-blue
+        border-right: solid 1px $accent-bright-blue
+        .container-fluid
+          padding: 40px
+
+
+      &:last-child
+        .panel-body
+          border-bottom: solid 1px $accent-bright-blue
+
+
+
+    + .panel
+      margin-top: 0
+
+    &:nth-child(2n) .panel-heading
+      background-color: #F7F6F6
+
+.panel-badged
+  .panel-heading
+    background-color: transparent
+    border: none
+    margin-top: -20px
+
+
+#cont_btn
+  background-color: $accent-light-blue
+  border-bottom: solid 1px $accent-bright-blue
+  border-radius: 0
+
+
+.marg-panel
+  margin-left: 18px
+
+.nav-pills .item
+  margin-right: 10px
+  background-color: $color-panel
+  border-radius: 4px
+  a
+    color: #fff
+    font-weight: bold
+    font-size: 14px
+
+.nav-pills .item a:hover
+  background-color: $color-panel-hover
+  cursor: pointer
+
+
+.activa
+  background-color: $color-panel-hover!important

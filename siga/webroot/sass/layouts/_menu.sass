@@ -1,0 +1,227 @@
+.tooltip
+  position: relative !important
+
+.tooltip-inner
+  /*position: fixed !important*/
+  max-width: 200px
+  width: 170px  !important
+  margin-top: -15px
+  padding: 4px 18px 4px 6px !important
+  color: #fff
+  font-size: 14px
+  text-align: center
+  background-color: rgb(78, 90, 125) !important
+  border-radius: 4px
+  border: 1px solid #8386a2  !important
+  position: absolute
+  z-index: 99
+
+
+.tooltip.right .tooltip-arrow
+  left: 0
+  margin-top: -6px
+  border-width: 5px 5px 5px 0
+  border-right-color: #8386a2 !important
+
+a.itemsa
+  &:hover
+    z-index: -1
+    background-color: rgba(255,255,255,.15)
+#wrapper
+  padding-left: 0
+  -webkit-transition: all 0.5s ease
+  -moz-transition: all 0.5s ease
+  -o-transition: all 0.5s ease
+  transition: all 0.5s ease
+  overflow: hidden
+
+#wrapper.toggled  
+  padding-left: $contenedorMenu
+#sidebar-wrapper  
+  position: absolute
+  left: $contenedorMenu
+  width: 0
+  height: 100%
+  margin-left: -$contenedorMenu
+  overflow-y: auto
+  overflow-x: hidden
+  color: #FFF
+  background: $color-panel_login
+  -webkit-transition: all 0.5s ease
+  -moz-transition: all 0.5s ease
+  -o-transition: all 0.5s ease
+  transition: all 0.5s ease
+
+ 
+#wrapper.toggled #sidebar-wrapper
+  width: $contenedorMenu
+
+.xyz 
+  min-width: 320px
+ 
+#wrapper.toggled #page-content-wrapper  
+  position: relative
+  margin-right: 0px
+
+.fixed-brand 
+  width: auto
+ 
+/* Sidebar Styles */
+
+.sidebar-nav  
+  position: absolute
+  top: $TopMeun
+  width: $contenedorMenu
+  margin: 0
+  padding: 0
+  list-style: none
+  margin-top: 2px
+
+.sidebar-nav li  
+  text-indent: 10px
+  line-height: 40px
+
+
+.sidebar-nav li a  
+  display: block
+  text-decoration: none
+  color: #FFF
+/*.sidebar-nav li a:hover
+  text-decoration: none
+  color: #2a3163
+  border-radius: 0 !important
+  background: rgba(255,255,255,0.2)*/
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus  
+  text-decoration: none
+
+.sidebar-nav > .sidebar-brand  
+  height: 65px
+  font-size: 18px
+  line-height: 60px
+
+.sidebar-nav > .sidebar-brand a  
+  color: #999999
+
+.sidebar-nav > .sidebar-brand a:hover  
+  color: #fff
+  background: none
+
+.no-margin
+  margin: 0
+.widthMD
+  width: 0px
+.padding-leftMD
+  padding-left: 73px
+.widthSub
+  width: 273px
+.padding-leftSub
+  padding-left: 273px
+
+.menuBottom
+  display: none
+#menu
+  top: 25px
+.no_responsi
+  display: none
+@media(width: 768px)
+  #sidebar-wrapper
+    top: 55px !important
+  .subMenu
+    margin-top: -19px !important
+  .no_responsi
+    display: none
+  #menu
+    display: none
+    margin-top: 120px !important
+@media(min-width: 768px)
+  .no_responsi
+    display: block
+  #menu
+    top: 85px
+  .menuBottom
+    display: block
+  #wrapper
+    padding-left: $contenedorMenu
+
+  .fixed-brand
+    width: $contenedorMenu
+
+  #wrapper.toggled
+    padding-left: 0
+
+  #sidebar-wrapper
+    width: $contenedorMenu
+    margin-top: 15px
+
+  #wrapper.toggled #sidebar-wrapper
+    width: $contenedorMenu
+    margin-top: 37px
+
+  #wrapper.toggled-2 #sidebar-wrapper
+    width: $contenido
+    /*padding: 4px 5px*/
+
+  #page-content-wrapper
+    padding: 20px
+    position: relative
+    -webkit-transition: all 0.5s ease
+    -moz-transition: all 0.5s ease
+    -o-transition: all 0.5s ease
+    transition: all 0.5s ease
+
+  #wrapper.toggled #page-content-wrapper
+    position: relative
+    margin-right: 0
+    padding-left: $contenedorMenu
+
+  #wrapper.toggled-2 #page-content-wrapper
+    position: relative
+    margin-right: 0
+    margin-left: -200px
+    -webkit-transition: all 0.5s ease
+    -moz-transition: all 0.5s ease
+    -o-transition: all 0.5s ease
+    transition: all 0.5s ease
+    width: auto
+
+.div-menu-x
+  position: fixed
+  z-index: 2
+  margin-top: 68px
+  height: 45px
+  font-size: larger
+  background-color: #1d2a50
+  width: 100%
+.listM
+  display: block
+  float: left
+  padding: 0 10px
+  a
+    color: #ffffff
+.listM2
+  display: block
+  float: right
+  padding: 0 10px
+
+.nav
+  li
+    a:hover
+      text-decoration: none
+      background-color: inherit
+      margin-top: -2px
+.sidebar-navBootom
+  position: relative
+  top: 85px
+  width: 273px
+  margin: 0px
+  padding: 0px
+  list-style: none
+  margin-top: 2px
+  height: 160px
+
+
+  
+
+ 

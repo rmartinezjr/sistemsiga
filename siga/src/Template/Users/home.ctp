@@ -1,0 +1,1 @@
+<a href="<?= \Cake\Routing\Router::url(['controller' => 'Users', 'action' => 'logout'], true); ?>">Cerrar Sesión</a>

@@ -1,0 +1,439 @@
+.btn
+  display: inline-flex
+.btn-regresar
+  background-image: url("../webroot/img/regresar.png")
+  background-repeat: no-repeat
+  background-position: -2px 2px
+  background-size: 26px
+  background-color: #262e50
+  margin-top: -1px
+  margin-right: -2px
+  border-radius: 50%
+  height: 28px
+  width: 33px
+
+.div-notificacion
+  background-image: url("../webroot/img/iconos/notificaciones.png")
+  background-repeat: no-repeat
+  background-size: 21px
+  margin-top: -1px
+  margin-right: -2px
+  margin-left: 20px
+  height: 21px
+  width: 21px
+.btn-sistem
+  padding-top: 0
+  padding-right: 0
+  margin-top: 20px
+  border-radius: 10px 25px 20px 10px
+  height: 28px
+  margin-right: 15px
+  font-family: $font-family
+  font-size: 12px
+  &:focus
+    color: #ffffff
+
+  @media (max-width: 520px)
+    margin-right: 5px
+  @media (max-width: 405px)
+    padding-left: 6px
+    vertical-align: middle
+    padding-top: 2px
+  @media (max-width: 330px)
+    width: 86%
+    padding-left: 12px
+    padding-top: 0
+    margin-right: 3px
+    margin-top: 10px
+  span
+    padding-top: 5px
+    @media (max-width: 405px)
+      font-size: 10px
+    @media (max-width: 330px)
+      font-size: 13px
+
+  &:hover
+    color: #FFFFFF
+
+  .fa
+    font-size: 19px
+    vertical-align: baseline
+    padding: 4px
+    @media (max-width: 330px)
+      font-size: 20px
+
+.btn-add
+  background: $bk-btn-add
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+
+.btn-edit
+  background: $bk-btn-edit
+  color: #ffffff
+
+.btn-list
+  background: #8D8D8F
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+
+.btn-save
+  background: #3F66D2
+  color: #ffffff
+
+.btn-print
+  background: $bk-btn-print
+  color: #FFFFFF
+
+.btn-export
+  background: $bk-btn-pdf
+  color: #FFFFFF
+
+.btn-workflow
+  background: #FF9933
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+
+.btn-structures
+  background: #c95428
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+
+.vincular-obj-structs
+  height: 30px
+  padding-right: 0
+  margin-top: 3px
+  border-radius: 10px 25px 20px 10px
+  margin-right: 15px
+  font-family: $font-family
+  font-size: 12px
+  font-weight: 400
+  background: #c95428
+  color: #ffffff
+  vertical-align: middle
+  border: solid 1px #c95428
+  &:active:before
+    color: #ffffff
+  &:focus
+    color: #ffffff
+  &:hover
+    color: #FFFFFF
+  @media (max-width: 520px)
+    margin-right: 5px
+  @media (max-width: 405px)
+    padding-left: 6px
+    vertical-align: middle
+    padding-top: 2px
+  @media (max-width: 330px)
+    width: 86%
+    padding-left: 12px
+    padding-top: 0
+    margin-right: 3px
+    margin-top: 10px
+  span
+    vertical-align: middle
+    position: relative
+    top: -3px
+    @media (max-width: 405px)
+      font-size: 10px
+    @media (max-width: 330px)
+      font-size: 13px
+  .fa
+    font-size: 19px
+    vertical-align: baseline
+    padding-top: 3px
+    &:before
+      vertical-align: middle
+    @media (max-width: 330px)
+      font-size: 20px
+
+.btn-desvin-struct
+  background: #f44336
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+  &:hover
+    color: #ffffff
+  .icono
+    height: 24px
+
+.btn-change-struct
+  background: #607d8b
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+  &:hover
+    color: #ffffff
+  .icono
+    height: 24px
+
+.icono
+  background: #262E50
+  border-radius: 50%
+  width: 29px
+  height: 27px
+  margin-left: 25px
+  margin-right: -3px
+  @media (max-width: 520px)
+    margin-left: 5px
+  @media (max-width: 405px)
+    margin-top: -2px
+  @media (max-width: 330px)
+    position: absolute
+    right: 22px
+    height: 27px
+    margin-top: 0
+
+/***ESTILO DE BOTONES EN LA SECCION DE BUSQUEDA***/
+
+.btn-search
+  height: 30px
+  border: none
+  font-family: $font-family
+  .icon-search
+    font-size: 18px
+  &:hover
+    background: #F2F6E9
+
+.clean-search
+  background: $green-global
+  height: 28px
+  font-size: 12px
+  padding: 5px 18px 3px 18px !important
+  border: none
+  color: #FFFFFF
+  font-family: $font-family
+  &:hover
+    color: #FFFFFF
+
+.clean-search-public
+  background: #048bca
+  height: 28px
+  font-size: 12px
+  padding: 5px 18px 3px 18px !important
+  border: none
+  color: #FFFFFF
+  font-family: $font-family
+  &:hover
+    color: #FFFFFF
+
+.cont-btn-salir
+  width: auto
+  float: right
+  margin-top: 8px
+
+.border1
+  border: solid 1px $bor-list-actions
+  border-radius: 6px 6px 0 0
+.border2
+  border: solid 1px $bor-list-actions
+  border-radius: 0 0 6px 6px
+.border3
+  border: solid 1px $bor-list-actions
+  border-radius: 6px
+
+.lista-control
+  list-style-type: none
+  li
+    border: solid 1px $bor-list-actions
+    background: #ffffff
+    padding: 3px 15px 4px 15px
+    min-width: 140px
+    width: auto
+    float: left
+    z-index: 999
+
+    &:hover
+      background: $green-global
+      a
+        color: #ffffff
+    a
+      font-family: $font-family
+      color: #000000
+      font-size: 12px
+      text-decoration: none
+      &:hover
+        text-decoration: none
+
+.list-controltool
+  display: inline-table
+  background-image: url('../img/puntos.png')
+  background-repeat: no-repeat
+  background-position: center
+  -moz-appearance: none
+  -webkit-appearance: none
+  width: 50px
+  vertical-align: middle
+  margin-top: 19px
+  padding: 3px 2px 8px 3px
+  &:hover
+    border-radius: 6px 6px 0 0
+    border: solid 1px $bor-list-actions
+    text-decoration: none
+    margin-top: 18px
+    .content-list
+      display: inline-block
+      position: absolute
+      right: 15px
+      min-width: 180px
+      .lista-control
+        display: block
+        position: absolute
+        li
+          width: 100%
+          text-align: left
+
+.content-list
+  min-width: 150px
+  position: absolute
+  right: 10px
+  top: 50px
+  display: none
+  z-index: 999
+  ul
+    li
+      cursor: pointer
+      a
+        cursor: pointer
+
+@media (max-width: 412px)
+  .list-controltool
+    &:hover
+      .content-list
+        right: 12px
+        top: 50px
+
+@media (max-width: 320px)
+  .list-controltool
+    &:hover
+      .content-list
+        right: 112px
+        top: 164px
+
+.refresh-button
+  background: $green-global
+  height: 28px
+  font-size: 12px
+  padding: 5px 10px 3px 10px !important
+  border: none
+  color: #FFFFFF
+  font-family: $font-family
+  &:hover
+    color: #FFFFFF
+  .icon-search
+    font-size: 18px
+.btn-exit
+  background: #e61610
+  color: #ffffff
+.btn-save-exit
+  background: #15943d
+  color: #ffffff
+
+.btn-asigentid
+  background-color: #4e5516
+  color: #ffffff
+.btn-asignar
+  background-color: #26a69a
+  color: #ffffff
+.btn-verdet
+  background-color: #9AA534
+  color: #ffffff
+/******************/
+.btn-desvin-struct
+  background: #f44336
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+  &:hover
+    color: #ffffff
+  .icono
+    height: 24px
+
+.btn-change-struct
+  background: #607d8b
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+  &:hover
+    color: #ffffff
+  .icono
+    height: 24px
+
+.btn-structures
+  background: #c95428
+  color: #ffffff
+  &:active:before
+    color: #ffffff
+
+.btn-sistem-struct
+  margin-top: -5px
+  padding-top: 0
+  margin-left: 10px
+  padding-left: 10px
+  padding-right: 0
+  border-radius: 10px 25px 20px 10px
+  height: 25px
+  margin-right: 8px
+  font-family: $font-family
+  font-size: 11px
+  span
+    margin-top: 3px
+  .fa
+    font-size: 14px
+    vertical-align: baseline
+    padding: 6px
+.table
+  tr
+    td
+      .btn-sistem
+        margin-top: 2px
+.btn-tb
+  margin-top: 0 !important
+  margin-left: 10px
+  padding-top: 0
+  display: inline-flex
+  vertical-align: middle
+.btn-tb-cancel
+  background-color: $bk-btn-cancel
+  color: #ffffff
+.btn-desc
+  display: inline-block
+  text-align: center
+  width: 30px
+  height: 30px
+  line-height: 30px
+  padding: 0px 10px
+  font-size: 1.1rem
+  border-radius: 0.2rem
+.btn-logout
+  border-radius: 7px !important
+  float: right
+  color: #ffffff
+  background-color: #048bca
+  border-color: #048bca
+  padding-left: 20px
+  padding-right: 20px
+.btn-logout:hover
+  color: #ffffff
+  background-color: #048bca
+  border-color: #048bca
+.btn-logout:active
+  color: #ffffff !important
+  background-color: #048bca
+  border-color: #048bca
+.btn-logout:focus
+  color: #ffffff
+  background-color: #048bca
+  border-color: #048bca
+.btn-login
+  background: #303941 !important
+  margin-top: 2px
+.btn-excel
+  background-color: #15943d
+  color: #ffffff
+.btn-seguimiento-excel
+  background-color: #c95428
+  color: #fff

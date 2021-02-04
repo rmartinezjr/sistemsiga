@@ -1,0 +1,408 @@
+html.html-inicio
+  min-height: 100%
+  position: relative
+body.inicio-sesion
+  padding-top: 130px
+  background: #d1d5d6 !important
+  margin: 0
+  margin-bottom: 50px
+body.inicio-sistema
+  background: #fff
+  height: 100%
+  margin: 0
+  margin-bottom: 80px
+
+/* CSS para Pagina de Inicio */
+.text-inicio
+  color: $color_button_home
+  font-size: 1.14em
+  @media (max-width: 640px)
+    font-size: 1.05em
+
+.bold-inicio
+  font-weight: bold
+
+.block-text-inicio
+  margin-top: 150px
+
+.block-text-iniciosesion
+  margin-top: 30px
+  padding-left: 15px
+
+.block-text-registro
+  margin-top: 30px
+  margin-bottom: 50px
+  padding-left: 15px
+
+.button-inicio-home
+  i
+    font-weight: normal
+    &:before
+      color: $color_icon_home
+      padding-right: 10px
+  &:link, &:visited, &:hover
+    text-decoration: none
+    background-color: $color_button_home
+    text-align: center
+    padding: 5px 60px 5px 15px
+    border-radius: $border_radius_interno
+    font-size: 1.3em
+    font-weight: normal
+    color: #fff
+
+.button-solicitud-home
+  i
+    font-weight: normal
+    &:before
+      color: $color_icon_home
+      padding-right: 10px
+  &:link, &:visited, &:hover
+    text-decoration: none
+    background-color: $color_button_home
+    text-align: center
+    padding: 5px 81px 5px 15px
+    border-radius: $border_radius_interno
+    font-size: 1.3em
+    font-weight: normal
+    color: #fff
+
+.copy-home
+  font-size: 0.89em
+  font-weight: normal
+  margin-top: 40px
+  color: #000
+
+/* CSS para Inicio de Sesion */
+.form-login
+  .inner-addon
+    position: relative
+    .fa
+      position: absolute
+      padding: 10px
+      pointer-events: none
+      color: #060735
+    .form-control
+      border-radius: $border_radius_interno
+      max-height: 26px
+      &::-webkit-input-placeholder
+        font-size: 0.87em
+  .left-addon
+    .fa
+      left:  0
+      padding-top: 5px
+    input
+      padding-left:  30px
+  .right-addon
+    .fa
+      right: 0
+    input
+      padding-right: 30px
+
+.title-login
+  color: #FFFFFF
+  font-size: 1em
+  font-weight: bold
+  margin-top: 5px
+
+.label-login
+  color: #FFFFFF
+  font-weight: normal
+
+.header-login h1
+  color: $color_header_login
+  font-size: 1.2em
+  font-weight: bold
+  @media (min-width: 351px) and (max-width: 480px)
+    font-size: 0.95em
+  @media (max-width: 350px)
+    font-size: 0.84em
+
+.forgot-pw-blk
+  padding-left: 5px
+  padding-right: 0
+  .forgot-pwd-block
+    padding-top: 7px
+    float: right
+    i
+      color: #FFFFFF
+    a
+      color: #FFFFFF
+      font-size: 0.88em
+      text-decoration: none
+      @media (max-width: 480px)
+        font-size: 0.79em
+
+.blk-label-solicitud
+  margin-bottom: 5px
+
+.block-info-solicitud
+  color: #FFFFFF
+  padding: 0
+  a
+    font-size: 0.76em
+  i
+    padding: 7px 5px
+    float: right
+
+.block-actions-login
+  margin: 10px -15px 20px -15px !important
+
+.label-solicita-ingreso
+  color: $color_label_solicita
+  font-size: 14px
+  font-weight: normal
+  @media (max-width: 480px)
+    font-size: 13px
+
+.button-login
+  background-color: $color_button_login
+  border: 1px solid $color_button_login
+  border-radius: $border_radius_interno
+  padding: 3px 40px
+  font-weight: normal
+  text-align: left !important
+  @media (min-width: 641px) and (max-width: 992px)
+    padding: 3px 33px
+  @media (min-width: 481px) and (max-width: 640px)
+    padding: 3px 27px
+  @media (min-width: 351px) and (max-width: 480px)
+    font-size: 11.5px
+    padding: 3px 20px
+  @media (min-width: 351px) and (max-width: 480px)
+    font-size: 11.5px
+    padding: 3px 25px
+  @media (max-width: 350px)
+    font-size: 9px
+    padding: 3px 15px
+.block-button-login
+  padding-right: 5px
+  @media (max-width: 480px)
+    padding-right: 0
+
+.button-solicitud
+  background-color: $color_button_login
+  border: 1px solid $color_button_login
+  padding: 3px 6px
+  font-weight: normal
+  font-size: 0.91em
+  width: 100%
+  text-align: center
+  @media (max-width: 480px)
+    font-size: 11.5px
+
+.button-solicita-ingreso
+  &:link, &:visited, &:hover
+    text-decoration: none
+    background-color: $color_button_solicita
+    border: 1px solid #FFFFFF
+    padding: 8px 45px
+    border-radius: $border_radius_interno
+    color: #FFFFFF
+
+.copy-login
+  color: #FFFFFF
+  font-size: 12px
+  font-weight: lighter
+  margin-bottom: 0
+
+.copyright-block
+  background-color: #303941
+  padding: 15px 10px 15px 10px
+  border-radius: 0 0 3px 3px
+  .copy-block-login
+    padding: 0
+  .copyright-text
+    text-align: center
+    margin-top: -5px
+
+.back-home
+  font-size: 10px
+  color: #7986cb
+  text-decoration: underline
+  float: right
+
+.back-login
+  font-size: 10px
+  color: #7986cb
+  text-decoration: underline
+  float: left
+
+.text-bold-solicitud
+  color: $color_label_solicita
+  font-weight: bold
+  font-size: 1em !important
+
+.text-bold-sendemail
+  color: #002d77
+  font-weight: bold
+  font-size: 0.93em !important
+  text-align: justify
+  margin-bottom: 10px
+
+.label-solicitud
+  color: #fff
+  font-weight: normal
+  @media (min-width: 992px)
+    font-size: 0.71em
+  @media (min-width: 481px) and (max-width: 991px)
+    font-size: 0.67em
+  @media (max-width: 480px)
+    font-size: 0.70em
+
+.copy-solicitud-ingreso
+  color: #FFFFFF
+  font-size: 12px
+  font-weight: lighter
+  margin-bottom: 0
+  @media (max-width: 520px)
+    font-size: 10px
+
+
+.label-o-solicitud
+  padding: 0
+  p
+    color: $color_label_solicita !important
+    font-size: 1em
+    margin: 0
+    max-height: 17px
+
+.div-nit-solicitud
+  margin-bottom: 0
+
+.content-inicio
+  min-height: 100%
+  height: auto !important
+  background: #d1d5d6 !important
+  .row-title-inicio
+    margin: auto
+    padding: 20px
+  .row-inicio
+    .form-block
+      margin: auto
+      @media (min-width: 992px)
+        width: 32%
+      @media (min-width: 768px) and (max-width: 991px)
+        width: 48%
+      @media (min-width: 640px) and (max-width: 767px)
+        width: 60%
+      @media (min-width: 481px) and (max-width: 639px)
+        width: 72%
+      @media (max-width: 480px)
+        width: 100%
+        padding: 20px
+      .panel-solicitud
+        background-color: #fff
+        border: 1px solid $color_panel_login
+        border-radius: $border_radius_panelinicio
+        margin-bottom: 15px
+        .panel-body
+          padding-bottom: 3px
+      .panel-login
+        background-color: #fff
+        border: 1px solid $color_panel_login
+        border-radius: $border_radius_panelinicio $border_radius_panelinicio 0 0
+        margin-bottom: 10px
+        .panel-body
+          padding-bottom: 3px
+          margin-top: -25px
+        .panel-heading
+          background-color: transparent
+          border: none
+          margin-top: -50px
+          .user-icon-login
+            background-image: url("../img/user-icon.png")
+            height: 50px
+        .panel-footer
+          padding: 0
+          background-color: #d1d5d6
+          border-right: 1px solid $color-panel_login
+          border-left: 1px solid $color-panel_login
+          border-bottom: 1px solid $color-panel_login
+          a
+            color: #ffffff
+      .panel-sendemail
+        background-color: #ffffff
+        border-radius: $border_radius_panelinicio $border_radius_panelinicio 0 0
+        margin-bottom: 50px
+        .panel-body
+          padding-bottom: 3px
+        .panel-footer
+          padding: 0
+          background-color: #d1d5d6
+          border-right: 1px solid $color-panel_login
+          border-left: 1px solid $color-panel_login
+          border-bottom: 1px solid $color-panel_login
+      .panel-contrasenia
+        background-color: $color_panel_login
+        border: 2px solid $color_panel_login
+        border-radius: $border_radius_panelinicio
+        margin-bottom: 40px
+        .panel-body
+          padding-bottom: 3px
+      .block-inicio
+        margin-bottom: 30px
+        min-height: 100%
+
+/* Css triangulo advertencia */
+.block-advertencia-documento-existe
+  .block-triangulo-advertencia
+    padding-left: 0
+    padding-right: 0
+    padding-top: 8px
+    .triangulo-advertencia
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 0 13px 20px 13px
+      border-color: transparent transparent #ffd900 transparent
+      span
+        margin-left: -1.5px
+        color: #000000
+        font-size: 11px
+        font-weight: bold
+  .block-msj-advertencia-documento
+    padding-left: 8px
+    padding-right: 0
+    margin-top: -5px
+    span
+      color: #ffd900
+      text-align: justify
+      font-size: 9.5px
+    a
+      font-size: 9.5px
+      color: #ffd900
+      font-weight: bold
+      text-decoration: underline
+/***********/
+.form-group
+  .form-control
+    font-size: 16px
+    padding: 12px
+    height: auto
+    color: $accent-light-green
+    border: solid 3px $accent-light-green
+    &:focus
+      outline: none
+      box-shadow: none
+    &::placeholder
+      color: $accent-light-green
+  .icon-input
+    position: relative
+    .icon-container
+      display: flex
+      align-items: center
+      justify-content: center
+      position: absolute
+      color: #fff
+      top: 0
+      left: 0
+      width: 50px
+      height: 89%
+      margin-left: 3px
+      margin-top: 3px
+      background-color: #303941
+
+      .icon
+        font-size: 25px
+    .form-control
+      padding-left: 55px

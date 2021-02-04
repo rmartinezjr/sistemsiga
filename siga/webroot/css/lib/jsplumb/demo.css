@@ -1,0 +1,189 @@
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+
+.w {
+    padding: 16px;
+    position: absolute;
+    /*z-index: 4;*/
+    border: 1px solid #c0c0c0;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: default;
+    background-color: white;
+    font-size: 11px;
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+    text-align: center;
+    width: 100px;
+    word-break: break-all;
+}
+
+.cursor-move{
+    cursor: move;
+}
+
+.w:hover {
+    background-color: #5c96bc;
+    color: white;
+
+}
+
+.aLabel {
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+}
+
+.aLabel.jtk-hover, .jtk-source-hover-replace, .jtk-target-hover-replace {
+    background-color: #1e8151;
+    color: white;
+}
+
+.aLabel {
+    background-color: white;
+    opacity: 0.8;
+    padding: 0.3em;
+    /*border-radius: 0.5em;
+    border: 1px solid #346789;*/
+    cursor: pointer;
+}
+
+.ep{
+    position: absolute;
+    bottom: 1%;
+    right: 4px;
+    width: 10px;
+    height: 1em;
+    cursor: pointer;
+    font-size: 14px;
+    /*background-color: orange;
+    box-shadow: 0 0 2px black;
+    -webkit-transition: -webkit-box-shadow 0.25s ease-in;
+    -moz-transition: -moz-box-shadow 0.25s ease-in;
+    transition: box-shadow 0.25s ease-in;*/
+}
+
+.ep-inicio{
+    bottom: 16%;
+    right: 7px;
+}
+
+.ep1{
+    font-size: 14px;
+}
+
+.delete{
+    position: absolute;
+    width: 10px;
+    bottom: 57%;
+    font-size: 14px;
+    cursor: pointer;
+    right:6px;
+}
+
+.edit{
+    position: absolute;
+    width: 10px;
+    bottom: 25%;
+    font-size: 13px;
+    cursor: pointer;
+    right: 3px;
+}
+
+.ep:hover {
+    /*box-shadow: 0 0 6px black;*/
+}
+
+.statemachine-demo .jtk-endpoint {
+    /*z-index: 3;*/
+}
+
+#objDrop_inicio {
+    left: 10px;
+    top: 5px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 67px;
+    height: 52px;
+}
+
+#objDrop_fin {
+    left: 94%;
+    top: 89%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 62px;
+    height: 52px;
+}
+
+.dragHover {
+    border: 2px solid orange;
+}
+
+path, .jtk-endpoint { cursor:pointer; }
+
+.btn-custom{
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    background-color: #808080;
+    color: white;
+    border: 1px solid #606060;
+}
+.btn-custom:hover {
+    color: white;
+}
+
+.btn-custom > span{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.btn-custom > i{
+    padding-left: 0 !important;
+}
+
+.inline-block{
+    display: inline-block;
+}
+
+.table-icons .btn{
+    display: inline-block;
+}
+
+.modal .modal-dialog .modal-content .modal-body .body-vincular .separacion .select-control{
+    padding-top: 4px;
+}
+
+.border-bottom-modal-etapa{
+    border-bottom: solid 1px #e5e5e5 !important;
+}
+
+.m-b-0-i{
+    margin-bottom: 0 !important;
+}
+
+.btn-save-modal-etapa{
+    width: 100%;
+}
+
+.title-modal-etapa{
+    color: #001f5b !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.float-right{
+    float: right;
+}
